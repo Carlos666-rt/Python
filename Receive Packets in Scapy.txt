@@ -1,0 +1,12 @@
+Scapy sr
+
+
+In order to receive the packet in scapy.
+
+sr(send request) -- answered, unanswered -- Tuple as an O/P or response which will have both the packets.
+
+sr1-- 1st answered packet.
+
+p = sr(IP(dst="<destination IP>")/ICMP())
+
+On Victim Machine setup tcpdump.
